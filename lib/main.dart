@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch:
        Colors.deepPurple),
-      home: signin(),
+      home: 
+      AuthenticationScreen(),
       );
       
   }
